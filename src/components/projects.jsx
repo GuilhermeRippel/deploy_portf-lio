@@ -3,19 +3,28 @@ import projeto_gestao_despesas from '../assets/projeto_gestao_despesas.png';
 import projeto_cadastro_usuarios from '../assets/projeto_cadastro_usuarios.png'
 import projeto_previsao_tempo from '../assets/Projeto_Previsao_Tempo.png'
 import projeto_tradutor from '../assets/projeto_tradutor.png'
+import projeto_hamburgueria from '../assets/projeto_hamburgueria.png'
 import em_breve from '../assets/local_para_foto.png'
 
 function Projects() {
   return (
     <div className="mx-auto p-4 flex flex-col gap-6 sm:gap-4 overflow-y-scroll overflow-x-hidden">
+    
+    <ProjectsCard
+    image={projeto_gestao_despesas}
+    title="Projeto de Gestão de Despesas"
+    description="Este projeto permite monitorar e gerenciar suas despesas mensais, com funcionalidades para adicionar, editar e excluir despesas. Ele utiliza tecnologias modernas como React e Node.js para garantir uma experiência de usuário agradável. Também inclui validação de token JWT, adicionando uma camada de segurança e dinamismo ao projeto."
+    projectLink="https://gestaodedespesasrippel.netlify.app/"
+    />
 
-      <ProjectsCard
-        image={projeto_gestao_despesas}
-        title="Projeto de Gestão de Despesas"
-        description="Este projeto permite monitorar e gerenciar suas despesas mensais, com funcionalidades para adicionar, editar e excluir despesas. Ele utiliza tecnologias modernas como React e Node.js para garantir uma experiência de usuário agradável. Também inclui validação de token JWT, adicionando uma camada de segurança e dinamismo ao projeto."
-        projectLink="https://gestaodedespesasrippel.netlify.app/"
-      />
-      <ProjectsCard
+    <ProjectsCard
+      image={projeto_hamburgueria}
+      title="Projeto FrontEnd Para Hamburgueria"
+      description="Este projeto consiste em um frontend destinado à uma hamburgueria fictícia, basicamente conta com tecnologias como Swiper para carrosel de imagens, e hookes e bibliotecas do React para um design interativo e responsivo."
+      projectLink="https://hamburguerianoponto.netlify.app/"
+    />
+
+    <ProjectsCard
         image={projeto_cadastro_usuarios}
         title="Projeto de Cadastro de Usuários"
         description="Este projeto simula o cadastro de usuários e foi uma ótima experiência de aprendizado para solidificar o uso de requisições HTTP. Nele, você pode ver os usuários cadastrados em tempo real, além de validação de dados para evitar duplicações. Finalmente, você pode excluir qualquer usuário com apenas um clique."
