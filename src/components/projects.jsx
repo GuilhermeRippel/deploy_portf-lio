@@ -4,7 +4,8 @@ import projeto_cadastro_usuarios from '../assets/projeto_cadastro_usuarios.png'
 import projeto_previsao_tempo from '../assets/Projeto_Previsao_Tempo.png'
 import projeto_tradutor from '../assets/projeto_tradutor.png'
 import projeto_hamburgueria from '../assets/projeto_hamburgueria.png'
-import em_breve from '../assets/local_para_foto.png'
+import projeto_cadastro_typescript from '../assets/projeto_cadastro_typescript.png'
+import projeto_academia_gymManager from '../assets/projeto_gym_manager.png'
 
 function Projects() {
   return (
@@ -23,6 +24,13 @@ function Projects() {
       description="Este projeto consiste em um frontend destinado à uma hamburgueria fictícia, basicamente conta com tecnologias como Swiper para carrosel de imagens, e hookes e bibliotecas do React para um design interativo e responsivo."
       projectLink="https://hamburguerianoponto.netlify.app/"
     />
+
+    <ProjectsCard
+        image={projeto_cadastro_typescript}
+        title="Projeto Cadastro Usuários (TypeScript)"
+        description="Este projeto é basicamente uma releitura atualizada e adaptada do meu cadastro de usuários, dessa vez feito de forma totalmente independente e implementando a linguaguem TypeScript, trata-se de um CRUD para aprender a lidar com a linguagem, nesse projeto também aprendi a utilizar a biblioteca Toastify."
+        projectLink="https://frontendtypescriptlogin.netlify.app"
+      />
 
     <ProjectsCard
         image={projeto_cadastro_usuarios}
@@ -46,9 +54,9 @@ function Projects() {
       />
 
       <ProjectsCard
-        image={em_breve}
-        title="Em breve!"
-        description="Projeto em desenvolvimento!"
+        image={projeto_academia_gymManager}
+        title="Gym Manager"
+        description="Projeto em desenvolvimento! Este projeto será uma aplicação grande onde o objetivo é auxiliar na parte logística das academias, trazendo informações relevantes sobre alunos, funcionários, aparelhos, etc."
         projectLink="#"
       />
     </div>
