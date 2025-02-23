@@ -1,5 +1,5 @@
 import react_logo from '../assets/react_logo.png';
-import TypeScript_Logo from '../assets/TypeScript_logo.png';
+import TypeScript_Logo from '../assets/TypeScript_Logo.png';
 import css_logo from '../assets/css_logo.png';
 import figma_logo from '../assets/figma_logo.webp';
 import node_logo from '../assets/node_logo.png';
@@ -24,7 +24,7 @@ function Tecnologies() {
         <div className="flex flex-col justify-end mt-auto">
           <div className="w-full flex justify-around bg-gray-900 p-3 rounded-t-md">
             <img className="w-10 xl:w-16 xl:h-15" src={react_logo} alt="Logo React" />
-            <img className="w-10 xl:w-16 xl:h-15" src={TypeScript_Logo} alt="Logo JavaScript" />
+            <img className="w-10 xl:w-16 xl:h-15" src={TypeScript_Logo} alt="Logo TypeScript" />
             <img className="w-10 xl:w-16 xl:h-15" src={css_logo} alt="Logo CSS" />
           </div>
           <div className="w-full flex justify-around bg-gray-900 p-3 rounded-b-md">
