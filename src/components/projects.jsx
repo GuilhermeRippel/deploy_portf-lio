@@ -56,8 +56,8 @@ function Projects() {
       <ProjectsCard
         image={projeto_academia_gymManager}
         title="Gym Manager"
-        description="Projeto em desenvolvimento! Este projeto será uma aplicação grande onde o objetivo é auxiliar na parte logística das academias, trazendo informações relevantes sobre alunos, funcionários, aparelhos, etc."
-        projectLink="#"
+        description="Este projeto é uma aplicação onde o objetivo é auxiliar na parte logística das academias, trazendo informações relevantes sobre alunos, funcionários, aparelhos, etc.Traz uma interface interativa e diversas funcionalidades para gerenciamento de variados setores da academia"
+        projectLink="https://gymmanager-five.vercel.app/"
       />
     </div>
   );
